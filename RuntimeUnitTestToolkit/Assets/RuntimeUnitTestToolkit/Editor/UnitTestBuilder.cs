@@ -1,5 +1,3 @@
-#if UNITY_EDITOR
-
 using RuntimeUnitTestToolkit;
 using RuntimeUnitTestToolkit.Editor;
 using System;
@@ -542,5 +540,3 @@ public static partial class UnitTestBuilder
 
     }
 }
-
-#endif

@@ -1,6 +1,4 @@
-﻿#if UNITY_EDITOR
-
-using System;
+﻿using System;
 using UnityEngine;
 
 namespace RuntimeUnitTestToolkit.Editor
@@ -129,5 +127,3 @@ namespace RuntimeUnitTestToolkit.Editor
         }
     }
 }
-
-#endif

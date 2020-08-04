@@ -1,5 +1,4 @@
-﻿#if UNITY_EDITOR
-using UnityEditor;
+﻿using UnityEditor;
 
 // Settings MenuItems.
 
@@ -341,5 +340,3 @@ Switch,
 
 
 }
-
-#endif
