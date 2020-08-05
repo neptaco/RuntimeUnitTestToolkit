@@ -40,7 +40,7 @@ public static partial class UnitTestBuilder
 {
     const string SettingsKeyBase = "RuntimeUnitTest.Settings.";
 
-    [MenuItem("Test/BuildUnitTest")]
+    [MenuItem("UnitTest/BuildUnitTest")]
     public static void BuildUnitTest()
     {
         var settings = new RuntimeUnitTestSettings(); // default
@@ -135,7 +135,7 @@ public static partial class UnitTestBuilder
     }
 
 
-    [MenuItem("Test/LoadUnitTestScene")]
+    [MenuItem("UnitTest/LoadUnitTestScene")]
     public static void LoadUnitTestScene()
     {
         var scene = EditorSceneManager.NewScene(NewSceneSetup.EmptyScene, NewSceneMode.Single);
